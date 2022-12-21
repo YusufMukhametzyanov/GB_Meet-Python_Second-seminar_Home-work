@@ -5,5 +5,5 @@
 # Сумма 9.06
 
 number = int(input('Enter number n: '))
-summ = [round((1+1/i)**i, 3) for i in range(1, n+1)]
-print(f'Для n = {n} -> {summ}, сумма {round(sum(summ), 3)}')
+summ = [round((1+1/i)**i, 3) for i in range(1, number+1)]
+print(f'Для n = {number} -> {summ} \n Сумма {round(sum(summ), 3)}')
